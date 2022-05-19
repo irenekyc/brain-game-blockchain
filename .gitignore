@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# private keys
+.env
+.secret
+
+#migration notice
+migration-notice.md
