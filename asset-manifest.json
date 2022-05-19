@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/brain-game-blockchain/static/css/main.c028f7d9.chunk.css",
+    "main.js": "/brain-game-blockchain/static/js/main.db16a007.chunk.js",
+    "main.js.map": "/brain-game-blockchain/static/js/main.db16a007.chunk.js.map",
+    "runtime-main.js": "/brain-game-blockchain/static/js/runtime-main.a480aac7.js",
+    "runtime-main.js.map": "/brain-game-blockchain/static/js/runtime-main.a480aac7.js.map",
+    "static/js/2.1b6a02ef.chunk.js": "/brain-game-blockchain/static/js/2.1b6a02ef.chunk.js",
+    "static/js/2.1b6a02ef.chunk.js.map": "/brain-game-blockchain/static/js/2.1b6a02ef.chunk.js.map",
+    "index.html": "/brain-game-blockchain/index.html",
+    "static/css/main.c028f7d9.chunk.css.map": "/brain-game-blockchain/static/css/main.c028f7d9.chunk.css.map",
+    "static/js/2.1b6a02ef.chunk.js.LICENSE.txt": "/brain-game-blockchain/static/js/2.1b6a02ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a480aac7.js",
+    "static/js/2.1b6a02ef.chunk.js",
+    "static/css/main.c028f7d9.chunk.css",
+    "static/js/main.db16a007.chunk.js"
+  ]
+}
