@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  background: gray;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo svg {
+  height: 26px;
+  margin-right: 10px;
+}
+
+.navbar__logo span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar__user__dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__user__dropdown span,
+.navbar__user__dropdown img {
+  margin-right: 0.25rem;
+}
+
+.divider-white {
+  color: #fff;
+}

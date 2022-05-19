@@ -1,0 +1,2304 @@
+{
+  "crypto-currencies": [
+    {
+      "currencyId": 1,
+      "currencyName": "aave",
+      "image": "aave.svg"
+    },
+    {
+      "currencyId": 2,
+      "currencyName": "abt",
+      "image": "abt.svg"
+    },
+    {
+      "currencyId": 3,
+      "currencyName": "act",
+      "image": "act.svg"
+    },
+    {
+      "currencyId": 4,
+      "currencyName": "actn",
+      "image": "actn.svg"
+    },
+    {
+      "currencyId": 5,
+      "currencyName": "ada",
+      "image": "ada.svg"
+    },
+    {
+      "currencyId": 6,
+      "currencyName": "add",
+      "image": "add.svg"
+    },
+    {
+      "currencyId": 7,
+      "currencyName": "adx",
+      "image": "adx.svg"
+    },
+    {
+      "currencyId": 8,
+      "currencyName": "ae",
+      "image": "ae.svg"
+    },
+    {
+      "currencyId": 9,
+      "currencyName": "aeon",
+      "image": "aeon.svg"
+    },
+    {
+      "currencyId": 10,
+      "currencyName": "aeur",
+      "image": "aeur.svg"
+    },
+    {
+      "currencyId": 11,
+      "currencyName": "agi",
+      "image": "agi.svg"
+    },
+    {
+      "currencyId": 12,
+      "currencyName": "agrs",
+      "image": "agrs.svg"
+    },
+    {
+      "currencyId": 13,
+      "currencyName": "aion",
+      "image": "aion.svg"
+    },
+    {
+      "currencyId": 14,
+      "currencyName": "algo",
+      "image": "algo.svg"
+    },
+    {
+      "currencyId": 15,
+      "currencyName": "amb",
+      "image": "amb.svg"
+    },
+    {
+      "currencyId": 16,
+      "currencyName": "amp",
+      "image": "amp.svg"
+    },
+    {
+      "currencyId": 17,
+      "currencyName": "ampl",
+      "image": "ampl.svg"
+    },
+    {
+      "currencyId": 18,
+      "currencyName": "ankr",
+      "image": "ankr.svg"
+    },
+    {
+      "currencyId": 19,
+      "currencyName": "ant",
+      "image": "ant.svg"
+    },
+    {
+      "currencyId": 20,
+      "currencyName": "apex",
+      "image": "apex.svg"
+    },
+    {
+      "currencyId": 21,
+      "currencyName": "appc",
+      "image": "appc.svg"
+    },
+    {
+      "currencyId": 22,
+      "currencyName": "ardr",
+      "image": "ardr.svg"
+    },
+    {
+      "currencyId": 23,
+      "currencyName": "arg",
+      "image": "arg.svg"
+    },
+    {
+      "currencyId": 24,
+      "currencyName": "ark",
+      "image": "ark.svg"
+    },
+    {
+      "currencyId": 25,
+      "currencyName": "arn",
+      "image": "arn.svg"
+    },
+    {
+      "currencyId": 26,
+      "currencyName": "arnx",
+      "image": "arnx.svg"
+    },
+    {
+      "currencyId": 27,
+      "currencyName": "ary",
+      "image": "ary.svg"
+    },
+    {
+      "currencyId": 28,
+      "currencyName": "ast",
+      "image": "ast.svg"
+    },
+    {
+      "currencyId": 29,
+      "currencyName": "atm",
+      "image": "atm.svg"
+    },
+    {
+      "currencyId": 30,
+      "currencyName": "atom",
+      "image": "atom.svg"
+    },
+    {
+      "currencyId": 31,
+      "currencyName": "audr",
+      "image": "audr.svg"
+    },
+    {
+      "currencyId": 32,
+      "currencyName": "auto",
+      "image": "auto.svg"
+    },
+    {
+      "currencyId": 33,
+      "currencyName": "aywa",
+      "image": "aywa.svg"
+    },
+    {
+      "currencyId": 34,
+      "currencyName": "bab",
+      "image": "bab.svg"
+    },
+    {
+      "currencyId": 35,
+      "currencyName": "bal",
+      "image": "bal.svg"
+    },
+    {
+      "currencyId": 36,
+      "currencyName": "band",
+      "image": "band.svg"
+    },
+    {
+      "currencyId": 37,
+      "currencyName": "bat",
+      "image": "bat.svg"
+    },
+    {
+      "currencyId": 38,
+      "currencyName": "bay",
+      "image": "bay.svg"
+    },
+    {
+      "currencyId": 39,
+      "currencyName": "bcbc",
+      "image": "bcbc.svg"
+    },
+    {
+      "currencyId": 40,
+      "currencyName": "bcc",
+      "image": "bcc.svg"
+    },
+    {
+      "currencyId": 41,
+      "currencyName": "bcd",
+      "image": "bcd.svg"
+    },
+    {
+      "currencyId": 42,
+      "currencyName": "bch",
+      "image": "bch.svg"
+    },
+    {
+      "currencyId": 43,
+      "currencyName": "bcio",
+      "image": "bcio.svg"
+    },
+    {
+      "currencyId": 44,
+      "currencyName": "bcn",
+      "image": "bcn.svg"
+    },
+    {
+      "currencyId": 45,
+      "currencyName": "bcpt",
+      "image": "bcpt.svg"
+    },
+    {
+      "currencyId": 46,
+      "currencyName": "bdl",
+      "image": "bdl.svg"
+    },
+    {
+      "currencyId": 47,
+      "currencyName": "beam",
+      "image": "beam.svg"
+    },
+    {
+      "currencyId": 48,
+      "currencyName": "bela",
+      "image": "bela.svg"
+    },
+    {
+      "currencyId": 49,
+      "currencyName": "bix",
+      "image": "bix.svg"
+    },
+    {
+      "currencyId": 50,
+      "currencyName": "blcn",
+      "image": "blcn.svg"
+    },
+    {
+      "currencyId": 51,
+      "currencyName": "blk",
+      "image": "blk.svg"
+    },
+    {
+      "currencyId": 52,
+      "currencyName": "block",
+      "image": "block.svg"
+    },
+    {
+      "currencyId": 53,
+      "currencyName": "blz",
+      "image": "blz.svg"
+    },
+    {
+      "currencyId": 54,
+      "currencyName": "bnb",
+      "image": "bnb.svg"
+    },
+    {
+      "currencyId": 55,
+      "currencyName": "bnt",
+      "image": "bnt.svg"
+    },
+    {
+      "currencyId": 56,
+      "currencyName": "bnty",
+      "image": "bnty.svg"
+    },
+    {
+      "currencyId": 57,
+      "currencyName": "booty",
+      "image": "booty.svg"
+    },
+    {
+      "currencyId": 58,
+      "currencyName": "bos",
+      "image": "bos.svg"
+    },
+    {
+      "currencyId": 59,
+      "currencyName": "bpt",
+      "image": "bpt.svg"
+    },
+    {
+      "currencyId": 60,
+      "currencyName": "bq",
+      "image": "bq.svg"
+    },
+    {
+      "currencyId": 61,
+      "currencyName": "brd",
+      "image": "brd.svg"
+    },
+    {
+      "currencyId": 62,
+      "currencyName": "bsd",
+      "image": "bsd.svg"
+    },
+    {
+      "currencyId": 63,
+      "currencyName": "bsv",
+      "image": "bsv.svg"
+    },
+    {
+      "currencyId": 64,
+      "currencyName": "btc",
+      "image": "btc.svg"
+    },
+    {
+      "currencyId": 65,
+      "currencyName": "btcd",
+      "image": "btcd.svg"
+    },
+    {
+      "currencyId": 66,
+      "currencyName": "btch",
+      "image": "btch.svg"
+    },
+    {
+      "currencyId": 67,
+      "currencyName": "btcp",
+      "image": "btcp.svg"
+    },
+    {
+      "currencyId": 68,
+      "currencyName": "btcz",
+      "image": "btcz.svg"
+    },
+    {
+      "currencyId": 69,
+      "currencyName": "btdx",
+      "image": "btdx.svg"
+    },
+    {
+      "currencyId": 70,
+      "currencyName": "btg",
+      "image": "btg.svg"
+    },
+    {
+      "currencyId": 71,
+      "currencyName": "btm",
+      "image": "btm.svg"
+    },
+    {
+      "currencyId": 72,
+      "currencyName": "bts",
+      "image": "bts.svg"
+    },
+    {
+      "currencyId": 73,
+      "currencyName": "btt",
+      "image": "btt.svg"
+    },
+    {
+      "currencyId": 74,
+      "currencyName": "btx",
+      "image": "btx.svg"
+    },
+    {
+      "currencyId": 75,
+      "currencyName": "burst",
+      "image": "burst.svg"
+    },
+    {
+      "currencyId": 76,
+      "currencyName": "bze",
+      "image": "bze.svg"
+    },
+    {
+      "currencyId": 77,
+      "currencyName": "call",
+      "image": "call.svg"
+    },
+    {
+      "currencyId": 78,
+      "currencyName": "cc",
+      "image": "cc.svg"
+    },
+    {
+      "currencyId": 79,
+      "currencyName": "cdn",
+      "image": "cdn.svg"
+    },
+    {
+      "currencyId": 80,
+      "currencyName": "cdt",
+      "image": "cdt.svg"
+    },
+    {
+      "currencyId": 81,
+      "currencyName": "cenz",
+      "image": "cenz.svg"
+    },
+    {
+      "currencyId": 82,
+      "currencyName": "chain",
+      "image": "chain.svg"
+    },
+    {
+      "currencyId": 83,
+      "currencyName": "chat",
+      "image": "chat.svg"
+    },
+    {
+      "currencyId": 84,
+      "currencyName": "chips",
+      "image": "chips.svg"
+    },
+    {
+      "currencyId": 85,
+      "currencyName": "chsb",
+      "image": "chsb.svg"
+    },
+    {
+      "currencyId": 86,
+      "currencyName": "cix",
+      "image": "cix.svg"
+    },
+    {
+      "currencyId": 87,
+      "currencyName": "clam",
+      "image": "clam.svg"
+    },
+    {
+      "currencyId": 88,
+      "currencyName": "cloak",
+      "image": "cloak.svg"
+    },
+    {
+      "currencyId": 89,
+      "currencyName": "cmm",
+      "image": "cmm.svg"
+    },
+    {
+      "currencyId": 90,
+      "currencyName": "cmt",
+      "image": "cmt.svg"
+    },
+    {
+      "currencyId": 91,
+      "currencyName": "cnd",
+      "image": "cnd.svg"
+    },
+    {
+      "currencyId": 92,
+      "currencyName": "cnx",
+      "image": "cnx.svg"
+    },
+    {
+      "currencyId": 93,
+      "currencyName": "cny",
+      "image": "cny.svg"
+    },
+    {
+      "currencyId": 94,
+      "currencyName": "cob",
+      "image": "cob.svg"
+    },
+    {
+      "currencyId": 95,
+      "currencyName": "colx",
+      "image": "colx.svg"
+    },
+    {
+      "currencyId": 96,
+      "currencyName": "comp",
+      "image": "comp.svg"
+    },
+    {
+      "currencyId": 97,
+      "currencyName": "coqui",
+      "image": "coqui.svg"
+    },
+    {
+      "currencyId": 98,
+      "currencyName": "cred",
+      "image": "cred.svg"
+    },
+    {
+      "currencyId": 99,
+      "currencyName": "crpt",
+      "image": "crpt.svg"
+    },
+    {
+      "currencyId": 100,
+      "currencyName": "crv",
+      "image": "crv.svg"
+    },
+    {
+      "currencyId": 101,
+      "currencyName": "crw",
+      "image": "crw.svg"
+    },
+    {
+      "currencyId": 102,
+      "currencyName": "cs",
+      "image": "cs.svg"
+    },
+    {
+      "currencyId": 103,
+      "currencyName": "ctr",
+      "image": "ctr.svg"
+    },
+    {
+      "currencyId": 104,
+      "currencyName": "ctxc",
+      "image": "ctxc.svg"
+    },
+    {
+      "currencyId": 105,
+      "currencyName": "cvc",
+      "image": "cvc.svg"
+    },
+    {
+      "currencyId": 106,
+      "currencyName": "d",
+      "image": "d.svg"
+    },
+    {
+      "currencyId": 107,
+      "currencyName": "dai",
+      "image": "dai.svg"
+    },
+    {
+      "currencyId": 108,
+      "currencyName": "dash",
+      "image": "dash.svg"
+    },
+    {
+      "currencyId": 109,
+      "currencyName": "dat",
+      "image": "dat.svg"
+    },
+    {
+      "currencyId": 110,
+      "currencyName": "data",
+      "image": "data.svg"
+    },
+    {
+      "currencyId": 111,
+      "currencyName": "dbc",
+      "image": "dbc.svg"
+    },
+    {
+      "currencyId": 112,
+      "currencyName": "dcn",
+      "image": "dcn.svg"
+    },
+    {
+      "currencyId": 113,
+      "currencyName": "dcr",
+      "image": "dcr.svg"
+    },
+    {
+      "currencyId": 114,
+      "currencyName": "deez",
+      "image": "deez.svg"
+    },
+    {
+      "currencyId": 115,
+      "currencyName": "dent",
+      "image": "dent.svg"
+    },
+    {
+      "currencyId": 116,
+      "currencyName": "dew",
+      "image": "dew.svg"
+    },
+    {
+      "currencyId": 117,
+      "currencyName": "dgb",
+      "image": "dgb.svg"
+    },
+    {
+      "currencyId": 118,
+      "currencyName": "dgd",
+      "image": "dgd.svg"
+    },
+    {
+      "currencyId": 119,
+      "currencyName": "dlt",
+      "image": "dlt.svg"
+    },
+    {
+      "currencyId": 120,
+      "currencyName": "dnt",
+      "image": "dnt.svg"
+    },
+    {
+      "currencyId": 131,
+      "currencyName": "dock",
+      "image": "dock.svg"
+    },
+    {
+      "currencyId": 132,
+      "currencyName": "doge",
+      "image": "doge.svg"
+    },
+    {
+      "currencyId": 133,
+      "currencyName": "dot",
+      "image": "dot.svg"
+    },
+    {
+      "currencyId": 134,
+      "currencyName": "drgn",
+      "image": "drgn.svg"
+    },
+    {
+      "currencyId": 135,
+      "currencyName": "drop",
+      "image": "drop.svg"
+    },
+    {
+      "currencyId": 136,
+      "currencyName": "dta",
+      "image": "dta.svg"
+    },
+    {
+      "currencyId": 137,
+      "currencyName": "dth",
+      "image": "dth.svg"
+    },
+    {
+      "currencyId": 138,
+      "currencyName": "dtr",
+      "image": "dtr.svg"
+    },
+    {
+      "currencyId": 139,
+      "currencyName": "ebst",
+      "image": "ebst.svg"
+    },
+    {
+      "currencyId": 140,
+      "currencyName": "eca",
+      "image": "eca.svg"
+    },
+    {
+      "currencyId": 151,
+      "currencyName": "edg",
+      "image": "edg.svg"
+    },
+    {
+      "currencyId": 152,
+      "currencyName": "edo",
+      "image": "edo.svg"
+    },
+    {
+      "currencyId": 153,
+      "currencyName": "edoge",
+      "image": "edoge.svg"
+    },
+    {
+      "currencyId": 154,
+      "currencyName": "ela",
+      "image": "ela.svg"
+    },
+    {
+      "currencyId": 155,
+      "currencyName": "elec",
+      "image": "elec.svg"
+    },
+    {
+      "currencyId": 156,
+      "currencyName": "elf",
+      "image": "elf.svg"
+    },
+    {
+      "currencyId": 157,
+      "currencyName": "elix",
+      "image": "elix.svg"
+    },
+    {
+      "currencyId": 158,
+      "currencyName": "ella",
+      "image": "ella.svg"
+    },
+    {
+      "currencyId": 159,
+      "currencyName": "emb",
+      "image": "emb.svg"
+    },
+    {
+      "currencyId": 160,
+      "currencyName": "emc",
+      "image": "emc.svg"
+    },
+    {
+      "currencyId": 161,
+      "currencyName": "emc2",
+      "image": "emc2.svg"
+    },
+    {
+      "currencyId": 162,
+      "currencyName": "eng",
+      "image": "eng.svg"
+    },
+    {
+      "currencyId": 163,
+      "currencyName": "enj",
+      "image": "enj.svg"
+    },
+    {
+      "currencyId": 164,
+      "currencyName": "entrp",
+      "image": "entrp.svg"
+    },
+    {
+      "currencyId": 165,
+      "currencyName": "eon",
+      "image": "eon.svg"
+    },
+    {
+      "currencyId": 166,
+      "currencyName": "eop",
+      "image": "eop.svg"
+    },
+    {
+      "currencyId": 167,
+      "currencyName": "eqli",
+      "image": "eqli.svg"
+    },
+    {
+      "currencyId": 168,
+      "currencyName": "equa",
+      "image": "equa.svg"
+    },
+    {
+      "currencyId": 169,
+      "currencyName": "etc",
+      "image": "etc.svg"
+    },
+    {
+      "currencyId": 170,
+      "currencyName": "eth",
+      "image": "eth.svg"
+    },
+    {
+      "currencyId": 171,
+      "currencyName": "ethos",
+      "image": "ethos.svg"
+    },
+    {
+      "currencyId": 172,
+      "currencyName": "etn",
+      "image": "etn.svg"
+    },
+    {
+      "currencyId": 173,
+      "currencyName": "etp",
+      "image": "etp.svg"
+    },
+    {
+      "currencyId": 174,
+      "currencyName": "eur",
+      "image": "eur.svg"
+    },
+    {
+      "currencyId": 175,
+      "currencyName": "evx",
+      "image": "evx.svg"
+    },
+    {
+      "currencyId": 176,
+      "currencyName": "exmo",
+      "image": "exmo.svg"
+    },
+    {
+      "currencyId": 177,
+      "currencyName": "exp",
+      "image": "exp.svg"
+    },
+    {
+      "currencyId": 178,
+      "currencyName": "fair",
+      "image": "fair.svg"
+    },
+    {
+      "currencyId": 179,
+      "currencyName": "fct",
+      "image": "fct.svg"
+    },
+    {
+      "currencyId": 180,
+      "currencyName": "fil",
+      "image": "fil.svg"
+    },
+    {
+      "currencyId": 181,
+      "currencyName": "fjc",
+      "image": "fjc.svg"
+    },
+    {
+      "currencyId": 182,
+      "currencyName": "fldc",
+      "image": "fldc.svg"
+    },
+    {
+      "currencyId": 183,
+      "currencyName": "flo",
+      "image": "flo.svg"
+    },
+    {
+      "currencyId": 184,
+      "currencyName": "flux",
+      "image": "flux.svg"
+    },
+    {
+      "currencyId": 185,
+      "currencyName": "fsn",
+      "image": "fsn.svg"
+    },
+    {
+      "currencyId": 186,
+      "currencyName": "ftc",
+      "image": "ftc.svg"
+    },
+    {
+      "currencyId": 187,
+      "currencyName": "fuel",
+      "image": "fuel.svg"
+    },
+    {
+      "currencyId": 188,
+      "currencyName": "fun",
+      "image": "fun.svg"
+    },
+    {
+      "currencyId": 189,
+      "currencyName": "game",
+      "image": "game.svg"
+    },
+    {
+      "currencyId": 190,
+      "currencyName": "gas",
+      "image": "gas.svg"
+    },
+    {
+      "currencyId": 191,
+      "currencyName": "gbp",
+      "image": "gbp.svg"
+    },
+    {
+      "currencyId": 192,
+      "currencyName": "gbx",
+      "image": "gbx.svg"
+    },
+    {
+      "currencyId": 193,
+      "currencyName": "gbyte",
+      "image": "gbyte.svg"
+    },
+    {
+      "currencyId": 194,
+      "currencyName": "generic",
+      "image": "generic.svg"
+    },
+    {
+      "currencyId": 195,
+      "currencyName": "gin",
+      "image": "gin.svg"
+    },
+    {
+      "currencyId": 196,
+      "currencyName": "glxt",
+      "image": "glxt.svg"
+    },
+    {
+      "currencyId": 197,
+      "currencyName": "gmr",
+      "image": "gmr.svg"
+    },
+    {
+      "currencyId": 198,
+      "currencyName": "gno",
+      "image": "gno.svg"
+    },
+    {
+      "currencyId": 199,
+      "currencyName": "gnt",
+      "image": "gnt.svg"
+    },
+    {
+      "currencyId": 200,
+      "currencyName": "gold",
+      "image": "gold.svg"
+    },
+    {
+      "currencyId": 201,
+      "currencyName": "grc",
+      "image": "grc.svg"
+    },
+    {
+      "currencyId": 202,
+      "currencyName": "grin",
+      "image": "grin.svg"
+    },
+    {
+      "currencyId": 203,
+      "currencyName": "grs",
+      "image": "grs.svg"
+    },
+    {
+      "currencyId": 204,
+      "currencyName": "grt",
+      "image": "grt.svg"
+    },
+    {
+      "currencyId": 205,
+      "currencyName": "gsc",
+      "image": "gsc.svg"
+    },
+    {
+      "currencyId": 206,
+      "currencyName": "gto",
+      "image": "gto.svg"
+    },
+    {
+      "currencyId": 207,
+      "currencyName": "gup",
+      "image": "gup.svg"
+    },
+    {
+      "currencyId": 208,
+      "currencyName": "gusd",
+      "image": "gusd.svg"
+    },
+    {
+      "currencyId": 209,
+      "currencyName": "gvt",
+      "image": "gvt.svg"
+    },
+    {
+      "currencyId": 210,
+      "currencyName": "gxs",
+      "image": "gxs.svg"
+    },
+    {
+      "currencyId": 211,
+      "currencyName": "gzr",
+      "image": "gzr.svg"
+    },
+    {
+      "currencyId": 212,
+      "currencyName": "hight",
+      "image": "hight.svg"
+    },
+    {
+      "currencyId": 213,
+      "currencyName": "hns",
+      "image": "hns.svg"
+    },
+    {
+      "currencyId": 214,
+      "currencyName": "hodl",
+      "image": "hodl.svg"
+    },
+    {
+      "currencyId": 215,
+      "currencyName": "hot",
+      "image": "hot.svg"
+    },
+    {
+      "currencyId": 216,
+      "currencyName": "hpb",
+      "image": "hpb.svg"
+    },
+    {
+      "currencyId": 217,
+      "currencyName": "hsr",
+      "image": "hsr.svg"
+    },
+    {
+      "currencyId": 218,
+      "currencyName": "ht",
+      "image": "ht.svg"
+    },
+    {
+      "currencyId": 219,
+      "currencyName": "html",
+      "image": "html.svg"
+    },
+    {
+      "currencyId": 220,
+      "currencyName": "huc",
+      "image": "huc.svg"
+    },
+    {
+      "currencyId": 221,
+      "currencyName": "husd",
+      "image": "husd.svg"
+    },
+    {
+      "currencyId": 222,
+      "currencyName": "hush",
+      "image": "hush.svg"
+    },
+    {
+      "currencyId": 223,
+      "currencyName": "icn",
+      "image": "icn.svg"
+    },
+    {
+      "currencyId": 224,
+      "currencyName": "icp",
+      "image": "icp.svg"
+    },
+    {
+      "currencyId": 225,
+      "currencyName": "icx",
+      "image": "icx.svg"
+    },
+    {
+      "currencyId": 226,
+      "currencyName": "ignis",
+      "image": "ignis.svg"
+    },
+    {
+      "currencyId": 227,
+      "currencyName": "ilk",
+      "image": "ilk.svg"
+    },
+    {
+      "currencyId": 228,
+      "currencyName": "ink",
+      "image": "ink.svg"
+    },
+    {
+      "currencyId": 229,
+      "currencyName": "ins",
+      "image": "ins.svg"
+    },
+    {
+      "currencyId": 230,
+      "currencyName": "ion",
+      "image": "ion.svg"
+    },
+    {
+      "currencyId": 231,
+      "currencyName": "iop",
+      "image": "iop.svg"
+    },
+    {
+      "currencyId": 232,
+      "currencyName": "iost",
+      "image": "iost.svg"
+    },
+    {
+      "currencyId": 233,
+      "currencyName": "iotx",
+      "image": "iotx.svg"
+    },
+    {
+      "currencyId": 234,
+      "currencyName": "iq",
+      "image": "iq.svg"
+    },
+    {
+      "currencyId": 235,
+      "currencyName": "itc",
+      "image": "itc.svg"
+    },
+    {
+      "currencyId": 236,
+      "currencyName": "jnt",
+      "image": "jnt.svg"
+    },
+    {
+      "currencyId": 237,
+      "currencyName": "jpy",
+      "image": "jpy.svg"
+    },
+    {
+      "currencyId": 238,
+      "currencyName": "kcs",
+      "image": "kcs.svg"
+    },
+    {
+      "currencyId": 239,
+      "currencyName": "kin",
+      "image": "kin.svg"
+    },
+    {
+      "currencyId": 240,
+      "currencyName": "klown",
+      "image": "klown.svg"
+    },
+    {
+      "currencyId": 241,
+      "currencyName": "kmd",
+      "image": "kmd.svg"
+    },
+    {
+      "currencyId": 242,
+      "currencyName": "knc",
+      "image": "knc.svg"
+    },
+    {
+      "currencyId": 243,
+      "currencyName": "krb",
+      "image": "krb.svg"
+    },
+    {
+      "currencyId": 244,
+      "currencyName": "ksm",
+      "image": "ksm.svg"
+    },
+    {
+      "currencyId": 245,
+      "currencyName": "lbc",
+      "image": "lbc.svg"
+    },
+    {
+      "currencyId": 246,
+      "currencyName": "lend",
+      "image": "lend.svg"
+    },
+    {
+      "currencyId": 247,
+      "currencyName": "leo",
+      "image": "leo.svg"
+    },
+    {
+      "currencyId": 248,
+      "currencyName": "link",
+      "image": "link.svg"
+    },
+    {
+      "currencyId": 249,
+      "currencyName": "lkk",
+      "image": "lkk.svg"
+    },
+    {
+      "currencyId": 250,
+      "currencyName": "loom",
+      "image": "loom.svg"
+    },
+    {
+      "currencyId": 251,
+      "currencyName": "lpt",
+      "image": "lpt.svg"
+    },
+    {
+      "currencyId": 252,
+      "currencyName": "lrc",
+      "image": "lrc.svg"
+    },
+    {
+      "currencyId": 253,
+      "currencyName": "lsk",
+      "image": "lsk.svg"
+    },
+    {
+      "currencyId": 254,
+      "currencyName": "ltc",
+      "image": "ltc.svg"
+    },
+    {
+      "currencyId": 255,
+      "currencyName": "lun",
+      "image": "lun.svg"
+    },
+    {
+      "currencyId": 256,
+      "currencyName": "maid",
+      "image": "maid.svg"
+    },
+    {
+      "currencyId": 257,
+      "currencyName": "matic",
+      "image": "matic.svg"
+    },
+    {
+      "currencyId": 258,
+      "currencyName": "max",
+      "image": "max.svg"
+    },
+    {
+      "currencyId": 259,
+      "currencyName": "mcap",
+      "image": "mcap.svg"
+    },
+    {
+      "currencyId": 260,
+      "currencyName": "mco",
+      "image": "mco.svg"
+    },
+    {
+      "currencyId": 261,
+      "currencyName": "mad",
+      "image": "mad.svg"
+    },
+    {
+      "currencyId": 262,
+      "currencyName": "mds",
+      "image": "mds.svg"
+    },
+    {
+      "currencyId": 263,
+      "currencyName": "med",
+      "image": "med.svg"
+    },
+    {
+      "currencyId": 264,
+      "currencyName": "meetone",
+      "image": "meetone.svg"
+    },
+    {
+      "currencyId": 265,
+      "currencyName": "mft",
+      "image": "mft.svg"
+    },
+    {
+      "currencyId": 266,
+      "currencyName": "miota",
+      "image": "miota.svg"
+    },
+    {
+      "currencyId": 267,
+      "currencyName": "mith",
+      "image": "mith.svg"
+    },
+    {
+      "currencyId": 268,
+      "currencyName": "mkr",
+      "image": "mkr.svg"
+    },
+    {
+      "currencyId": 269,
+      "currencyName": "mln",
+      "image": "mln.svg"
+    },
+    {
+      "currencyId": 270,
+      "currencyName": "mnx",
+      "image": "mnx.svg"
+    },
+    {
+      "currencyId": 271,
+      "currencyName": "mnz",
+      "image": "mnz.svg"
+    },
+    {
+      "currencyId": 272,
+      "currencyName": "moac",
+      "image": "moac.svg"
+    },
+    {
+      "currencyId": 273,
+      "currencyName": "mod",
+      "image": "mod.svg"
+    },
+    {
+      "currencyId": 274,
+      "currencyName": "mona",
+      "image": "mona.svg"
+    },
+    {
+      "currencyId": 275,
+      "currencyName": "msr",
+      "image": "msr.svg"
+    },
+    {
+      "currencyId": 276,
+      "currencyName": "mth",
+      "image": "mth.svg"
+    },
+    {
+      "currencyId": 277,
+      "currencyName": "mtl",
+      "image": "mtl.svg"
+    },
+    {
+      "currencyId": 278,
+      "currencyName": "music",
+      "image": "music.svg"
+    },
+    {
+      "currencyId": 279,
+      "currencyName": "mzc",
+      "image": "mzc.svg"
+    },
+    {
+      "currencyId": 280,
+      "currencyName": "nano",
+      "image": "nano.svg"
+    },
+    {
+      "currencyId": 281,
+      "currencyName": "nas",
+      "image": "nas.svg"
+    },
+    {
+      "currencyId": 282,
+      "currencyName": "nav",
+      "image": "nav.svg"
+    },
+    {
+      "currencyId": 283,
+      "currencyName": "ncash",
+      "image": "ncash.svg"
+    },
+    {
+      "currencyId": 284,
+      "currencyName": "ndz",
+      "image": "ndz.svg"
+    },
+    {
+      "currencyId": 285,
+      "currencyName": "nebl",
+      "image": "nebl.svg"
+    },
+    {
+      "currencyId": 286,
+      "currencyName": "neo",
+      "image": "neo.svg"
+    },
+    {
+      "currencyId": 287,
+      "currencyName": "neos",
+      "image": "neos.svg"
+    },
+    {
+      "currencyId": 288,
+      "currencyName": "neu",
+      "image": "neu.svg"
+    },
+    {
+      "currencyId": 289,
+      "currencyName": "nexo",
+      "image": "nexo.svg"
+    },
+    {
+      "currencyId": 290,
+      "currencyName": "ngc",
+      "image": "ngc.svg"
+    },
+    {
+      "currencyId": 291,
+      "currencyName": "nio",
+      "image": "nio.svg"
+    },
+    {
+      "currencyId": 292,
+      "currencyName": "nkn",
+      "image": "nkn.svg"
+    },
+    {
+      "currencyId": 293,
+      "currencyName": "nlc2",
+      "image": "nlc2.svg"
+    },
+    {
+      "currencyId": 294,
+      "currencyName": "nlg",
+      "image": "nlg.svg"
+    },
+    {
+      "currencyId": 295,
+      "currencyName": "nmc",
+      "image": "nmc.svg"
+    },
+    {
+      "currencyId": 296,
+      "currencyName": "nmr",
+      "image": "nmr.svg"
+    },
+    {
+      "currencyId": 297,
+      "currencyName": "npxs",
+      "image": "npxs.svg"
+    },
+    {
+      "currencyId": 298,
+      "currencyName": "ntbc",
+      "image": "ntbc.svg"
+    },
+    {
+      "currencyId": 299,
+      "currencyName": "nuls",
+      "image": "nuls.svg"
+    },
+    {
+      "currencyId": 300,
+      "currencyName": "nxs",
+      "image": "nxs.svg"
+    },
+    {
+      "currencyId": 301,
+      "currencyName": "nxt",
+      "image": "nxt.svg"
+    },
+    {
+      "currencyId": 302,
+      "currencyName": "oax",
+      "image": "oax.svg"
+    },
+    {
+      "currencyId": 303,
+      "currencyName": "ok",
+      "image": "ok.svg"
+    },
+    {
+      "currencyId": 304,
+      "currencyName": "omg",
+      "image": "omg.svg"
+    },
+    {
+      "currencyId": 305,
+      "currencyName": "omni",
+      "image": "omni.svg"
+    },
+    {
+      "currencyId": 306,
+      "currencyName": "one",
+      "image": "one.svg"
+    },
+    {
+      "currencyId": 307,
+      "currencyName": "ong",
+      "image": "ong.svg"
+    },
+    {
+      "currencyId": 308,
+      "currencyName": "ont",
+      "image": "ont.svg"
+    },
+    {
+      "currencyId": 309,
+      "currencyName": "oot",
+      "image": "oot.svg"
+    },
+    {
+      "currencyId": 310,
+      "currencyName": "ost",
+      "image": "ost.svg"
+    },
+    {
+      "currencyId": 311,
+      "currencyName": "ox",
+      "image": "ox.svg"
+    },
+    {
+      "currencyId": 312,
+      "currencyName": "oxt",
+      "image": "oxt.svg"
+    },
+    {
+      "currencyId": 313,
+      "currencyName": "part",
+      "image": "part.svg"
+    },
+    {
+      "currencyId": 314,
+      "currencyName": "pasc",
+      "image": "pasc.svg"
+    },
+    {
+      "currencyId": 315,
+      "currencyName": "pasl",
+      "image": "pasl.svg"
+    },
+    {
+      "currencyId": 316,
+      "currencyName": "pax",
+      "image": "pax.svg"
+    },
+    {
+      "currencyId": 317,
+      "currencyName": "paxg",
+      "image": "paxg.svg"
+    },
+    {
+      "currencyId": 318,
+      "currencyName": "pay",
+      "image": "pay.svg"
+    },
+    {
+      "currencyId": 319,
+      "currencyName": "payx",
+      "image": "payx.svg"
+    },
+    {
+      "currencyId": 320,
+      "currencyName": "pink",
+      "image": "pink.svg"
+    },
+    {
+      "currencyId": 321,
+      "currencyName": "pirl",
+      "image": "pirl.svg"
+    },
+    {
+      "currencyId": 322,
+      "currencyName": "pivx",
+      "image": "pivx.svg"
+    },
+    {
+      "currencyId": 323,
+      "currencyName": "plr",
+      "image": "plr.svg"
+    },
+    {
+      "currencyId": 324,
+      "currencyName": "poa",
+      "image": "poa.svg"
+    },
+    {
+      "currencyId": 325,
+      "currencyName": "poe",
+      "image": "poe.svg"
+    },
+    {
+      "currencyId": 326,
+      "currencyName": "polis",
+      "image": "polis.svg"
+    },
+    {
+      "currencyId": 327,
+      "currencyName": "poly",
+      "image": "poly.svg"
+    },
+    {
+      "currencyId": 328,
+      "currencyName": "pot",
+      "image": "pot.svg"
+    },
+    {
+      "currencyId": 329,
+      "currencyName": "powr",
+      "image": "powr.svg"
+    },
+    {
+      "currencyId": 330,
+      "currencyName": "ppc",
+      "image": "ppc.svg"
+    },
+    {
+      "currencyId": 331,
+      "currencyName": "ppp",
+      "image": "ppp.svg"
+    },
+    {
+      "currencyId": 332,
+      "currencyName": "ppt",
+      "image": "ppt.svg"
+    },
+    {
+      "currencyId": 333,
+      "currencyName": "pre",
+      "image": "pre.svg"
+    },
+    {
+      "currencyId": 334,
+      "currencyName": "prl",
+      "image": "prl.svg"
+    },
+    {
+      "currencyId": 335,
+      "currencyName": "pungo",
+      "image": "pungo.svg"
+    },
+    {
+      "currencyId": 336,
+      "currencyName": "pura",
+      "image": "pura.svg"
+    },
+    {
+      "currencyId": 337,
+      "currencyName": "qash",
+      "image": "qash.svg"
+    },
+    {
+      "currencyId": 338,
+      "currencyName": "qiwi",
+      "image": "qiwi.svg"
+    },
+    {
+      "currencyId": 339,
+      "currencyName": "qlc",
+      "image": "qlc.svg"
+    },
+    {
+      "currencyId": 340,
+      "currencyName": "qrl",
+      "image": "qrl.svg"
+    },
+    {
+      "currencyId": 341,
+      "currencyName": "qsp",
+      "image": "qsp.svg"
+    },
+    {
+      "currencyId": 342,
+      "currencyName": "qtum",
+      "image": "qtum.svg"
+    },
+    {
+      "currencyId": 343,
+      "currencyName": "r",
+      "image": "r.svg"
+    },
+    {
+      "currencyId": 344,
+      "currencyName": "rads",
+      "image": "rads.svg"
+    },
+    {
+      "currencyId": 345,
+      "currencyName": "rap",
+      "image": "rap.svg"
+    },
+    {
+      "currencyId": 346,
+      "currencyName": "rcn",
+      "image": "rcn.svg"
+    },
+    {
+      "currencyId": 347,
+      "currencyName": "rdd",
+      "image": "rdd.svg"
+    },
+    {
+      "currencyId": 348,
+      "currencyName": "rdn",
+      "image": "rdn.svg"
+    },
+    {
+      "currencyId": 349,
+      "currencyName": "ren",
+      "image": "ren.svg"
+    },
+    {
+      "currencyId": 350,
+      "currencyName": "rep",
+      "image": "rep.svg"
+    },
+    {
+      "currencyId": 351,
+      "currencyName": "repv2",
+      "image": "repv2.svg"
+    },
+    {
+      "currencyId": 352,
+      "currencyName": "req",
+      "image": "req.svg"
+    },
+    {
+      "currencyId": 353,
+      "currencyName": "rhoc",
+      "image": "rhoc.svg"
+    },
+    {
+      "currencyId": 354,
+      "currencyName": "ric",
+      "image": "ric.svg"
+    },
+    {
+      "currencyId": 355,
+      "currencyName": "rise",
+      "image": "rise.svg"
+    },
+    {
+      "currencyId": 356,
+      "currencyName": "rlc",
+      "image": "rlc.svg"
+    },
+    {
+      "currencyId": 357,
+      "currencyName": "rpx",
+      "image": "rpx.svg"
+    },
+    {
+      "currencyId": 358,
+      "currencyName": "rub",
+      "image": "rub.svg"
+    },
+    {
+      "currencyId": 359,
+      "currencyName": "rvn",
+      "image": "rvn.svg"
+    },
+    {
+      "currencyId": 360,
+      "currencyName": "ryo",
+      "image": "ryo.svg"
+    },
+    {
+      "currencyId": 361,
+      "currencyName": "safe",
+      "image": "safe.svg"
+    },
+    {
+      "currencyId": 362,
+      "currencyName": "safemoon",
+      "image": "safemoon.svg"
+    },
+    {
+      "currencyId": 363,
+      "currencyName": "sai",
+      "image": "sai.svg"
+    },
+    {
+      "currencyId": 364,
+      "currencyName": "salt",
+      "image": "salt.svg"
+    },
+    {
+      "currencyId": 365,
+      "currencyName": "san",
+      "image": "san.svg"
+    },
+    {
+      "currencyId": 366,
+      "currencyName": "sand",
+      "image": "sand.svg"
+    },
+    {
+      "currencyId": 367,
+      "currencyName": "sbd",
+      "image": "sbd.svg"
+    },
+    {
+      "currencyId": 368,
+      "currencyName": "sberbank",
+      "image": "sberbank.svg"
+    },
+    {
+      "currencyId": 369,
+      "currencyName": "sc",
+      "image": "sc.svg"
+    },
+    {
+      "currencyId": 370,
+      "currencyName": "shift",
+      "image": "shift.svg"
+    },
+    {
+      "currencyId": 371,
+      "currencyName": "sib",
+      "image": "sib.svg"
+    },
+    {
+      "currencyId": 372,
+      "currencyName": "sin",
+      "image": "sin.svg"
+    },
+    {
+      "currencyId": 373,
+      "currencyName": "skl",
+      "image": "skl.svg"
+    },
+    {
+      "currencyId": 374,
+      "currencyName": "sky",
+      "image": "sky.svg"
+    },
+    {
+      "currencyId": 375,
+      "currencyName": "slr",
+      "image": "slr.svg"
+    },
+    {
+      "currencyId": 376,
+      "currencyName": "sls",
+      "image": "sls.svg"
+    },
+    {
+      "currencyId": 377,
+      "currencyName": "smart",
+      "image": "smart.svg"
+    },
+    {
+      "currencyId": 378,
+      "currencyName": "sngls",
+      "image": "sngls.svg"
+    },
+    {
+      "currencyId": 379,
+      "currencyName": "snm",
+      "image": "snm.svg"
+    },
+    {
+      "currencyId": 380,
+      "currencyName": "snt",
+      "image": "snt.svg"
+    },
+    {
+      "currencyId": 381,
+      "currencyName": "snx",
+      "image": "snx.svg"
+    },
+    {
+      "currencyId": 382,
+      "currencyName": "soc",
+      "image": "soc.svg"
+    },
+    {
+      "currencyId": 383,
+      "currencyName": "sol",
+      "image": "sol.svg"
+    },
+    {
+      "currencyId": 384,
+      "currencyName": "spacehbit",
+      "image": "spacehbit.svg"
+    },
+    {
+      "currencyId": 385,
+      "currencyName": "spank",
+      "image": "spank.svg"
+    },
+    {
+      "currencyId": 386,
+      "currencyName": "sphtx",
+      "image": "sphtx.svg"
+    },
+    {
+      "currencyId": 387,
+      "currencyName": "srn",
+      "image": "srn.svg"
+    },
+    {
+      "currencyId": 388,
+      "currencyName": "stak",
+      "image": "stak.svg"
+    },
+    {
+      "currencyId": 389,
+      "currencyName": "start",
+      "image": "start.svg"
+    },
+    {
+      "currencyId": 390,
+      "currencyName": "steem",
+      "image": "steem.svg"
+    },
+    {
+      "currencyId": 391,
+      "currencyName": "storj",
+      "image": "storj.svg"
+    },
+    {
+      "currencyId": 392,
+      "currencyName": "storm",
+      "image": "storm.svg"
+    },
+    {
+      "currencyId": 393,
+      "currencyName": "stox",
+      "image": "stox.svg"
+    },
+    {
+      "currencyId": 394,
+      "currencyName": "stq",
+      "image": "stq.svg"
+    },
+    {
+      "currencyId": 395,
+      "currencyName": "strat",
+      "image": "strat.svg"
+    },
+    {
+      "currencyId": 396,
+      "currencyName": "stx",
+      "image": "stx.svg"
+    },
+    {
+      "currencyId": 397,
+      "currencyName": "sub",
+      "image": "sub.svg"
+    },
+    {
+      "currencyId": 398,
+      "currencyName": "sumo",
+      "image": "sumo.svg"
+    },
+    {
+      "currencyId": 399,
+      "currencyName": "sushi",
+      "image": "sushi.svg"
+    },
+    {
+      "currencyId": 400,
+      "currencyName": "sys",
+      "image": "sys.svg"
+    },
+    {
+      "currencyId": 401,
+      "currencyName": "taas",
+      "image": "taas.svg"
+    },
+    {
+      "currencyId": 402,
+      "currencyName": "tau",
+      "image": "tau.svg"
+    },
+    {
+      "currencyId": 403,
+      "currencyName": "tbx",
+      "image": "tbx.svg"
+    },
+    {
+      "currencyId": 404,
+      "currencyName": "tel",
+      "image": "tel.svg"
+    },
+    {
+      "currencyId": 405,
+      "currencyName": "ten",
+      "image": "ten.svg"
+    },
+    {
+      "currencyId": 406,
+      "currencyName": "tern",
+      "image": "tern.svg"
+    },
+    {
+      "currencyId": 407,
+      "currencyName": "tgch",
+      "image": "tgch.svg"
+    },
+    {
+      "currencyId": 408,
+      "currencyName": "theta",
+      "image": "theta.svg"
+    },
+    {
+      "currencyId": 409,
+      "currencyName": "tix",
+      "image": "tix.svg"
+    },
+    {
+      "currencyId": 410,
+      "currencyName": "tkn",
+      "image": "tkn.svg"
+    },
+    {
+      "currencyId": 411,
+      "currencyName": "tks",
+      "image": "tks.svg"
+    },
+    {
+      "currencyId": 412,
+      "currencyName": "tnb",
+      "image": "tnb.svg"
+    },
+    {
+      "currencyId": 413,
+      "currencyName": "tnc",
+      "image": "tnc.svg"
+    },
+    {
+      "currencyId": 414,
+      "currencyName": "tnt",
+      "image": "tnt.svg"
+    },
+    {
+      "currencyId": 415,
+      "currencyName": "tomo",
+      "image": "tomo.svg"
+    },
+    {
+      "currencyId": 416,
+      "currencyName": "tpay",
+      "image": "tpay.svg"
+    },
+    {
+      "currencyId": 417,
+      "currencyName": "trig",
+      "image": "trig.svg"
+    },
+    {
+      "currencyId": 418,
+      "currencyName": "trtl",
+      "image": "trtl.svg"
+    },
+    {
+      "currencyId": 419,
+      "currencyName": "trx",
+      "image": "trx.svg"
+    },
+    {
+      "currencyId": 420,
+      "currencyName": "tusd",
+      "image": "tusd.svg"
+    },
+    {
+      "currencyId": 421,
+      "currencyName": "tzc",
+      "image": "tzc.svg"
+    },
+    {
+      "currencyId": 422,
+      "currencyName": "ubq",
+      "image": "ubq.svg"
+    },
+    {
+      "currencyId": 423,
+      "currencyName": "uma",
+      "image": "uma.svg"
+    },
+    {
+      "currencyId": 424,
+      "currencyName": "uni",
+      "image": "uni.svg"
+    },
+    {
+      "currencyId": 425,
+      "currencyName": "unity",
+      "image": "unity.svg"
+    },
+    {
+      "currencyId": 426,
+      "currencyName": "usd",
+      "image": "usd.svg"
+    },
+    {
+      "currencyId": 427,
+      "currencyName": "usdc",
+      "image": "usdc.svg"
+    },
+    {
+      "currencyId": 428,
+      "currencyName": "usdt",
+      "image": "usdt.svg"
+    },
+    {
+      "currencyId": 429,
+      "currencyName": "utk",
+      "image": "utk.svg"
+    },
+    {
+      "currencyId": 430,
+      "currencyName": "veri",
+      "image": "veri.svg"
+    },
+    {
+      "currencyId": 431,
+      "currencyName": "vet",
+      "image": "vet.svg"
+    },
+    {
+      "currencyId": 432,
+      "currencyName": "via",
+      "image": "via.svg"
+    },
+    {
+      "currencyId": 433,
+      "currencyName": "vib",
+      "image": "vib.svg"
+    },
+    {
+      "currencyId": 434,
+      "currencyName": "vibe",
+      "image": "vibe.svg"
+    },
+    {
+      "currencyId": 435,
+      "currencyName": "vivo",
+      "image": "vivo.svg"
+    },
+    {
+      "currencyId": 436,
+      "currencyName": "vrc",
+      "image": "vrc.svg"
+    },
+    {
+      "currencyId": 437,
+      "currencyName": "vrsc",
+      "image": "vrsc.svg"
+    },
+    {
+      "currencyId": 438,
+      "currencyName": "vtc",
+      "image": "vtc.svg"
+    },
+    {
+      "currencyId": 439,
+      "currencyName": "vtho",
+      "image": "vtho.svg"
+    },
+    {
+      "currencyId": 440,
+      "currencyName": "wabi",
+      "image": "wabi.svg"
+    },
+    {
+      "currencyId": 441,
+      "currencyName": "wan",
+      "image": "wan.svg"
+    },
+    {
+      "currencyId": 442,
+      "currencyName": "waves",
+      "image": "waves.svg"
+    },
+    {
+      "currencyId": 443,
+      "currencyName": "wax",
+      "image": "wax.svg"
+    },
+    {
+      "currencyId": 444,
+      "currencyName": "wbtc",
+      "image": "wbtc.svg"
+    },
+    {
+      "currencyId": 445,
+      "currencyName": "wgr",
+      "image": "wgr.svg"
+    },
+    {
+      "currencyId": 446,
+      "currencyName": "wtc",
+      "image": "wtc.svg"
+    },
+    {
+      "currencyId": 447,
+      "currencyName": "x",
+      "image": "x.svg"
+    },
+    {
+      "currencyId": 448,
+      "currencyName": "xas",
+      "image": "xas.svg"
+    },
+    {
+      "currencyId": 449,
+      "currencyName": "xbc",
+      "image": "xbc.svg"
+    },
+    {
+      "currencyId": 450,
+      "currencyName": "xbp",
+      "image": "xbp.svg"
+    },
+    {
+      "currencyId": 451,
+      "currencyName": "xdn",
+      "image": "xdn.svg"
+    },
+    {
+      "currencyId": 452,
+      "currencyName": "xem",
+      "image": "xem.svg"
+    },
+    {
+      "currencyId": 453,
+      "currencyName": "xin",
+      "image": "xin.svg"
+    },
+    {
+      "currencyId": 454,
+      "currencyName": "xlm",
+      "image": "xlm.svg"
+    },
+    {
+      "currencyId": 455,
+      "currencyName": "xmcc",
+      "image": "xmcc.svg"
+    },
+    {
+      "currencyId": 456,
+      "currencyName": "xmg",
+      "image": "xmg.svg"
+    },
+    {
+      "currencyId": 457,
+      "currencyName": "xmo",
+      "image": "xmo.svg"
+    },
+    {
+      "currencyId": 458,
+      "currencyName": "xmr",
+      "image": "xmr.svg"
+    },
+    {
+      "currencyId": 459,
+      "currencyName": "xmy",
+      "image": "xmy.svg"
+    },
+    {
+      "currencyId": 460,
+      "currencyName": "xp",
+      "image": "xp.svg"
+    },
+    {
+      "currencyId": 461,
+      "currencyName": "xpa",
+      "image": "xpa.svg"
+    },
+    {
+      "currencyId": 462,
+      "currencyName": "xpm",
+      "image": "xpm.svg"
+    },
+    {
+      "currencyId": 463,
+      "currencyName": "xpr",
+      "image": "xpr.svg"
+    },
+    {
+      "currencyId": 464,
+      "currencyName": "xrp",
+      "image": "xrp.svg"
+    },
+    {
+      "currencyId": 465,
+      "currencyName": "xsg",
+      "image": "xsg.svg"
+    },
+    {
+      "currencyId": 466,
+      "currencyName": "xtz",
+      "image": "xtz.svg"
+    },
+    {
+      "currencyId": 467,
+      "currencyName": "xuc",
+      "image": "xuc.svg"
+    },
+    {
+      "currencyId": 468,
+      "currencyName": "xvc",
+      "image": "xvc.svg"
+    },
+    {
+      "currencyId": 469,
+      "currencyName": "xvg",
+      "image": "xvg.svg"
+    },
+    {
+      "currencyId": 470,
+      "currencyName": "xzc",
+      "image": "xzc.svg"
+    },
+    {
+      "currencyId": 471,
+      "currencyName": "yfi",
+      "image": "yfi.svg"
+    },
+    {
+      "currencyId": 472,
+      "currencyName": "yoyow",
+      "image": "yoyow.svg"
+    },
+    {
+      "currencyId": 473,
+      "currencyName": "zcl",
+      "image": "zcl.svg"
+    },
+    {
+      "currencyId": 474,
+      "currencyName": "zec",
+      "image": "zec.svg"
+    },
+    {
+      "currencyId": 475,
+      "currencyName": "zel",
+      "image": "zel.svg"
+    },
+    {
+      "currencyId": 476,
+      "currencyName": "zen",
+      "image": "zen.svg"
+    },
+    {
+      "currencyId": 477,
+      "currencyName": "zest",
+      "image": "zest.svg"
+    },
+    {
+      "currencyId": 478,
+      "currencyName": "zil",
+      "image": "zil.svg"
+    },
+    {
+      "currencyId": 479,
+      "currencyName": "zilla",
+      "image": "zilla.svg"
+    },
+    {
+      "currencyId": 480,
+      "currencyName": "zrx",
+      "image": "zrx.svg"
+    }
+  ]
+}

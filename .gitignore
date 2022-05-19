@@ -26,5 +26,6 @@ yarn-error.log*
 .env
 .secret
 
-#migration notice
+#reference
 migration-notice.md
+game-contract-add.md

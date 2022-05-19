@@ -1,0 +1,88 @@
+.game__card__card-wrapper {
+  width: 33%;
+  height: auto;
+  padding-bottom: 0.75rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.card {
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  height: 120px;
+  width: 100px;
+}
+
+@media screen and (min-width: 500px) {
+  .game__card__card-wrapper {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .game__card__card-wrapper {
+    width: 20%;
+  }
+  .card {
+    height: 100px;
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .game__card__card-wrapper {
+    width: 16.6%;
+  }
+}
+
+/* This container is needed to position the front and back side */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card--active .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card--inactive .card-inner {
+  transform: rotateY(0);
+}
+
+/* Position the front and back side */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front {
+  background: #006994;
+  color: black;
+}
+
+.card-front svg {
+  width: 50%;
+}
+/* Style the back side */
+.card-back {
+  background: #fff;
+  transform: rotateY(180deg);
+}
+
+.card-back img {
+  width: 65%;
+}

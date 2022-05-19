@@ -1,0 +1,16 @@
+export const WON = "WON";
+export const LOST = "LOST";
+
+export const CONTENT_ABOUT = "CONTENT_ABOUT";
+export const CONTENT_GAME = "CONTENT_GAME";
+
+export const TOKEN_REWARD = {
+  easy: 1,
+  medium: 5,
+  hard: 10,
+};
+
+export const TRANSFER_PROGRESS_PENDING = "TRANSFER_PROGRESS_PENDING ";
+export const TRANSFER_PROGRESS_NULL = "TRANSFER_PROGRESS_NULL";
+export const TRANSFER_PROGRESS_SUCCEED = "TRANSFER_PROGRESS_SUCCEED";
+export const TRANSFER_PROGRESS_FAIL = "TRANSFER_PROGRESS_FAIL";
