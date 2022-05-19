@@ -2,6 +2,7 @@
   "name": "brain-game-v2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://irenekyc.github.io/brain-game-blockchain",
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@truffle/hdwallet-provider": "^2.0.8",
     "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
     "identicon.js": "^2.3.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -17,6 +19,8 @@
     "web3": "^1.7.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
