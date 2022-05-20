@@ -1,12 +1,13 @@
 import { client } from "../library/sanity";
 import { v4 as uuidv4 } from "uuid";
 
-const createGameHistory = async ({ currentAccount, status }) => {
+const createGameHistory = async ({ currentAccount, status, level }) => {
   const gameId = `${currentAccount}-game-${uuidv4()}`;
   const gameDoc = {
     _type: "games",
     _id: gameId,
     gameId,
+    level,
     timestamp: new Date(),
     status,
     user: {
