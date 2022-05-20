@@ -19,8 +19,9 @@ const GameCardsContainer = ({
   const [renderList, setRenderList] = useState([]);
   const [userSelectedPair, setUserSelectedPair] = useState([]);
   const [correctedPairs, setCorrectedPairs] = useState([]);
+  const [isWon, setIsWon] = useState(undefined);
 
-  const { transferProgress } = useContext(BrainGameContext);
+  const { transferProgress, currentAccount } = useContext(BrainGameContext);
 
   useEffect(() => {
     if (gameStep !== 5) return;
@@ -68,12 +69,18 @@ const GameCardsContainer = ({
   }, [userSelectedPair]);
 
   useEffect(() => {
+    if (isWon === undefined) return;
+    showResult();
+    setIsWon(undefined);
+  }, [isWon, showResult]);
+
+  useEffect(() => {
     if (correctedPairs.length === 0 || currenciesList.length === 0) return;
     if (correctedPairs.length === currenciesList.length) {
       // Win!
-      showResult();
+      setIsWon(correctedPairs.length === currenciesList.length);
     }
-  }, [correctedPairs, currenciesList, showResult]);
+  }, [correctedPairs, currenciesList, currentAccount]);
   return (
     <>
       {renderList.map((currency) => (
@@ -100,7 +107,13 @@ const GameCardsContainer = ({
       ))}
       {gameStep === 5 && transferProgress === TRANSFER_PROGRESS_NULL && (
         <ResultBanner
-          result={correctedPairs.length === currenciesList.length ? WON : LOST}
+          result={
+            gameStep !== 5
+              ? undefined
+              : correctedPairs.length === currenciesList.length
+              ? WON
+              : LOST
+          }
           difficultyLevel={difficultyLevel}
         />
       )}

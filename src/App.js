@@ -4,6 +4,7 @@ import { CONTENT_ABOUT, CONTENT_GAME } from "./constants";
 import { BrainGameContext } from "./context/BrainGameContext";
 
 import GameWidget from "./widgets/game";
+import Cooldown from "./components/cool-down";
 
 function App() {
   const [content, setContent] = useState(CONTENT_ABOUT);
@@ -15,6 +16,7 @@ function App() {
     contractInstance,
     isCorrectNetwork,
     switchChainId,
+    userDetails,
   } = useContext(BrainGameContext);
 
   return (
@@ -78,10 +80,18 @@ function App() {
                 <button onClick={switchChainId}>Switch to Rinkeby</button>
               </>
             )}
-          {currentAccount !== undefined && contractInstance && (
-            /* {userTokenBalance && <p>Your balance: {userTokenBalance}</p>} */
-            <GameWidget stopGame={() => setContent(CONTENT_ABOUT)} />
-          )}
+          {currentAccount !== undefined &&
+            userDetails &&
+            !userDetails.canPlay && (
+              <Cooldown cooldown={userDetails.cooldown} />
+            )}
+          {currentAccount !== undefined &&
+            contractInstance &&
+            userDetails &&
+            userDetails.canPlay && (
+              /* {userTokenBalance && <p>Your balance: {userTokenBalance}</p>} */
+              <GameWidget stopGame={() => setContent(CONTENT_ABOUT)} />
+            )}
         </>
       )}
     </main>

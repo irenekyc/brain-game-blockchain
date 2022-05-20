@@ -5,6 +5,12 @@ import {
   TRANSFER_PROGRESS_PENDING,
   TRANSFER_PROGRESS_NULL,
 } from "../constants";
+import fetchUser from "../helpers/fetchUser";
+import createGameHistory from "../helpers/createGameHistory";
+import {
+  updateGameTransactionStatus,
+  updateGameTransactionHash,
+} from "../helpers/updateGameHistory";
 
 export const BrainGameContext = createContext();
 export const BrainGameContextProvider = ({ children }) => {
@@ -19,6 +25,8 @@ export const BrainGameContextProvider = ({ children }) => {
   const [transferProgress, setTransferProgress] = useState(
     TRANSFER_PROGRESS_NULL
   );
+  const [userDetails, setUserDetails] = useState(null);
+  const [gameID, setGameID] = useState(null);
 
   // check and load contractInstance
   const loadContract = async () => {
@@ -77,6 +85,15 @@ export const BrainGameContextProvider = ({ children }) => {
       .catch((error) => console.log(error));
   };
 
+  const updateGameHistory = ({ transactionHash, transactionSucceed }) => {
+    if (transactionSucceed) {
+      updateGameTransactionStatus(gameID, transactionSucceed);
+    }
+    if (transactionHash) {
+      updateGameTransactionHash(gameID, transactionHash);
+    }
+  };
+
   const transferToken = async (tokenAmount) => {
     if (contractInstance && currentAccount) {
       contractInstance.methods
@@ -84,14 +101,25 @@ export const BrainGameContextProvider = ({ children }) => {
         .send({
           from: currentAccount,
         })
-        .on("transactionHash", () =>
-          setTransferProgress(TRANSFER_PROGRESS_PENDING)
-        )
+        .on("transactionHash", (transactionHash) => {
+          setTransferProgress(TRANSFER_PROGRESS_PENDING);
+          updateGameHistory({ transactionHash, transactionSucceed: undefined });
+        })
         .then(() => {
           reloadBalance();
           setTransferProgress(TRANSFER_PROGRESS_NULL);
+          updateGameHistory({
+            transactionHash: undefined,
+            transactionSucceed: true,
+          });
         })
-        .catch(() => setTransferProgress(TRANSFER_PROGRESS_NULL));
+        .catch(() => {
+          setTransferProgress(TRANSFER_PROGRESS_NULL);
+          updateGameHistory({
+            transactionHash: undefined,
+            transactionSucceed: false,
+          });
+        });
     }
   };
 
@@ -100,6 +128,8 @@ export const BrainGameContextProvider = ({ children }) => {
       method: "eth_requestAccounts",
     });
     setCurrentAccount(accounts[0]);
+    const user = await fetchUser(accounts[0]);
+    setUserDetails(user);
   };
 
   const reloadBalance = async () => {
@@ -114,6 +144,16 @@ export const BrainGameContextProvider = ({ children }) => {
 
   const gameReset = async () => {
     setTransferSucceed(undefined);
+    console.log("game reset");
+  };
+
+  const createGameHistoryEntry = async ({ status, difficultyLevel }) => {
+    const gameId = await createGameHistory({
+      status,
+      currentAccount: currentAccount,
+      level: difficultyLevel,
+    });
+    setGameID(gameId);
   };
 
   return (
@@ -131,6 +171,8 @@ export const BrainGameContextProvider = ({ children }) => {
         transferSucceed,
         gameReset,
         transferProgress,
+        userDetails,
+        createGameHistoryEntry,
       }}
     >
       {children}

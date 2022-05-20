@@ -24,7 +24,7 @@ const Game = ({ stopGame }) => {
   const [gameStep, setGameStep] = useState(1);
   const [currenciesList, setCurrenciesList] = useState([]);
   const [difficultyLevel, setDifficultyLevel] = useState(undefined);
-  const { gameReset } = useContext(BrainGameContext);
+  const { gameReset, createGameHistoryEntry } = useContext(BrainGameContext);
 
   const selectDifficultyLevel = (e) => {
     const level = e.target.getAttribute("data-difficulty-level");
@@ -34,10 +34,17 @@ const Game = ({ stopGame }) => {
   };
   const goToNextStep = () => {
     setGameStep(gameStep + 1);
+    if (gameStep + 1 === 5) {
+      // need to refactor later
+
+      createGameHistoryEntry({ status: "lost", difficultyLevel });
+    }
   };
 
   const showResult = () => {
     setGameStep(5);
+
+    createGameHistoryEntry({ status: "win", difficultyLevel });
   };
 
   const gameRestart = () => {

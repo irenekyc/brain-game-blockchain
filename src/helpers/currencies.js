@@ -5,7 +5,6 @@ export const getCurrenciesList = (numOfCurrencies) => {
   let drawedCurrencies = [];
   let i = 0;
   const totalNumOfCurrencies = currenciesData["crypto-currencies"].length;
-  console.log(currenciesData);
 
   do {
     const drawedNumber = Math.floor(Math.random() * totalNumOfCurrencies - 1);
