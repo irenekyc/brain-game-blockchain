@@ -21,7 +21,9 @@ const GameCardsContainer = ({
   const [correctedPairs, setCorrectedPairs] = useState([]);
   const [isWon, setIsWon] = useState(undefined);
 
-  const { transferProgress, currentAccount } = useContext(BrainGameContext);
+  const { transferProgress, currentAccount, transferToken } = useContext(
+    BrainGameContext
+  );
 
   useEffect(() => {
     if (gameStep !== 5) return;
@@ -115,6 +117,7 @@ const GameCardsContainer = ({
               : LOST
           }
           difficultyLevel={difficultyLevel}
+          transferToken={transferToken}
         />
       )}
     </>

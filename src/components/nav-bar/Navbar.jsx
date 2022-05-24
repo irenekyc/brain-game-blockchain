@@ -1,16 +1,15 @@
 import "./navbar.css";
-import { useContext } from "react";
+
 import BrainIcon from "../brain-icon";
-import { BrainGameContext } from "../../context/BrainGameContext";
+
 import Identicon from "identicon.js";
 
-const NavBar = () => {
-  const {
-    currentAccount,
-    connectMetaMask,
-    userTokenBalance,
-    transferToken,
-  } = useContext(BrainGameContext);
+const NavBar = ({
+  currentAccount,
+  connectMetaMask,
+  userTokenBalance,
+  transferToken,
+}) => {
   return (
     <nav className="navbar" data-testid="nav-bar">
       <div className="container navbar__container">
@@ -20,7 +19,10 @@ const NavBar = () => {
         <div className="navbar__user">
           {currentAccount ? (
             <>
-              <div className="navbar__user__dropdown">
+              <div
+                className="navbar__user__dropdown"
+                data-testid="nav-bar-user"
+              >
                 <img
                   className="ml-2"
                   width="30"
@@ -41,7 +43,10 @@ const NavBar = () => {
                 </span>
                 <span className="divider-white">|</span>
                 <span>
-                  Brain coin balance: <strong>{userTokenBalance}</strong>
+                  Brain coin balance:{" "}
+                  <strong data-testid="user-token-balance">
+                    {userTokenBalance}
+                  </strong>
                 </span>
                 {process.env.NODE_ENV === "development" && (
                   <button onClick={() => transferToken(1)}>Get Token</button>
@@ -49,7 +54,12 @@ const NavBar = () => {
               </div>
             </>
           ) : (
-            <button onClick={connectMetaMask}>Connect Wallet</button>
+            <button
+              onClick={connectMetaMask}
+              data-testid="nav-bar-connect-wallet-btn"
+            >
+              Connect Wallet
+            </button>
           )}
         </div>
       </div>
