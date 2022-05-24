@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" data-testid="footer">
       <div className="container footer__container">
         <p>
           Brain Game is developed by Irene K.

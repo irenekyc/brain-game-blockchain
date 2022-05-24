@@ -38,7 +38,7 @@ const CountDown = ({
   }, [shouldStopClock]);
 
   return (
-    <span>
+    <span data-testid="countdown-span">
       {internalCountDown <= 0
         ? `${gameStep === 4 || gameStep === 5 ? "Times Up!" : "Start"}`
         : `${withText ? "Time left: " : ""}${internalCountDown} ${

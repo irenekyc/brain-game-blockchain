@@ -6,7 +6,7 @@ const ResultBanner = ({ result, difficultyLevel }) => {
   const { transferToken } = useContext(BrainGameContext);
 
   return (
-    <div className="game__modal-results">
+    <div className="game__modal-results" data-testid="result-banner">
       <div className="container game__modal-results__content">
         {result === WON ? (
           <>

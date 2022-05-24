@@ -12,7 +12,7 @@ const NavBar = () => {
     transferToken,
   } = useContext(BrainGameContext);
   return (
-    <nav className="navbar">
+    <nav className="navbar" data-testid="nav-bar">
       <div className="container navbar__container">
         <div className="navbar__logo">
           <BrainIcon color="#f2aeb1" /> <span>Brain Game</span>
