@@ -1,6 +1,7 @@
-import { client } from "../library/sanity";
+import { client } from "./sanity";
 
 const fetchUser = async (currentAddress) => {
+  if (process.env.NODE_ENV === "test") return;
   let canPlay = true;
   let cooldown = 0;
   const query = `*[_type == "users" && walletAddress == "${currentAddress}"]{userId, lastGame}`;

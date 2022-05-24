@@ -1,7 +1,8 @@
-import { client } from "../library/sanity";
+import { client } from "./sanity";
 import { v4 as uuidv4 } from "uuid";
 
 const createGameHistory = async ({ currentAccount, status, level }) => {
+  if (process.env.NODE_ENV === "test") return;
   const gameId = `${currentAccount}-game-${uuidv4()}`;
   const gameDoc = {
     _type: "games",

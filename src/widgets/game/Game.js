@@ -70,7 +70,7 @@ const Game = ({ stopGame }) => {
 
   return (
     <>
-      <h2>{renderHeading()}</h2>
+      <h2 data-testid="game-heading">{renderHeading()}</h2>
       {gameStep === 1 && (
         <div>
           <button className="button--outline" onClick={stopGame}>
@@ -105,6 +105,7 @@ const Game = ({ stopGame }) => {
             data-difficulty-level="easy"
             onClick={selectDifficultyLevel}
             className="game__level-button"
+            data-testid="level-button"
           >
             Easy
           </button>
@@ -112,6 +113,7 @@ const Game = ({ stopGame }) => {
             className="game__level-button"
             data-difficulty-level="medium"
             onClick={selectDifficultyLevel}
+            data-testid="level-button"
           >
             Medium
           </button>
@@ -119,6 +121,7 @@ const Game = ({ stopGame }) => {
             className="game__level-button"
             data-difficulty-level="hard"
             onClick={selectDifficultyLevel}
+            data-testid="level-button"
           >
             Hard
           </button>
@@ -131,7 +134,10 @@ const Game = ({ stopGame }) => {
         </div>
       )}
       {gameStep === 2 && (
-        <div className="game__modal-countdown">
+        <div
+          className="game__modal-countdown"
+          data-testid="game-step-2-countdown"
+        >
           <div className="game__modal-countdown__content">
             <CountDown
               countDown={3}
@@ -153,7 +159,10 @@ const Game = ({ stopGame }) => {
               withText
             />
           </p>
-          <div className="game__cards-container">
+          <div
+            className="game__cards-container"
+            data-testid="game-cards-container"
+          >
             <GameCardsContainer
               difficultyLevel={difficultyLevel}
               currenciesList={currenciesList}

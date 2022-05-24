@@ -32,11 +32,11 @@ function App() {
         userTokenBalance={userTokenBalance}
         transferToken={transferToken}
       />
-      <main className="container body__container">
+      <main className="container body__container" data-testid="main">
         {content === CONTENT_ABOUT ? (
           <>
-            <h1>Welcome to Brain Game</h1>
-            <h2>About Brain Game</h2>
+            <h1 data-testid="welcome-heading">Welcome to Brain Game</h1>
+            <h2 data-testid="welcome-about">About Brain Game</h2>
             <p>
               Brain Game is a blockchain game, built with solidity, react js and
               web3 developed by Irene K.
@@ -69,27 +69,44 @@ function App() {
                 </p>
               </li>
             </ul>
-            <button onClick={() => setContent(CONTENT_GAME)}>Start Now!</button>
+            <button
+              data-testid="start-button"
+              onClick={() => setContent(CONTENT_GAME)}
+            >
+              Start Now!
+            </button>
           </>
         ) : (
           <>
-            {warning && <p>{warning}</p>}
+            {warning && <p data-testid="warning-message">{warning}</p>}
             {hasMetaMask && currentAccount === undefined && (
               <>
-                <p>You have connect wallet to start playing</p>
-                <button onClick={connectMetaMask}>Connect Wallet</button>
+                <p data-testid="connect-wallet-prompt">
+                  You have connect wallet to start playing
+                </p>
+                <button
+                  data-testid="connect-wallet-button"
+                  onClick={connectMetaMask}
+                >
+                  Connect Wallet
+                </button>
               </>
             )}
             {currentAccount !== undefined &&
               !contractInstance &&
               !isCorrectNetwork && (
                 <>
-                  <p>
+                  <p data-testid="connect-rinkeby-prompt">
                     {
                       "Brain game use Rinkeby Test Network, please switch to Rinkeby Testnet"
                     }
                   </p>
-                  <button onClick={switchChainId}>Switch to Rinkeby</button>
+                  <button
+                    data-testid="connect-rinkeby-button"
+                    onClick={switchChainId}
+                  >
+                    Switch to Rinkeby
+                  </button>
                 </>
               )}
             {currentAccount !== undefined &&

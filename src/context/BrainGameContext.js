@@ -5,12 +5,12 @@ import {
   TRANSFER_PROGRESS_PENDING,
   TRANSFER_PROGRESS_NULL,
 } from "../constants";
-import fetchUser from "../helpers/fetchUser";
-import createGameHistory from "../helpers/createGameHistory";
+import fetchUser from "../library/fetchUser";
+import createGameHistory from "../library/createGameHistory";
 import {
   updateGameTransactionStatus,
   updateGameTransactionHash,
-} from "../helpers/updateGameHistory";
+} from "../library/updateGameHistory";
 
 export const BrainGameContext = createContext();
 export const BrainGameContextProvider = ({ children }) => {
